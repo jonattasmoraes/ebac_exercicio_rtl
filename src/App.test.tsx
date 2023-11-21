@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import App from './App';
 
-describe('Teste para o componente PostComment', () => {
+describe('Teste para o componente App', () => {
     test('Deve adicionar dois comentários à lista', () => {
         render(<App />);
 
